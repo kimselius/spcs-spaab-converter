@@ -177,7 +177,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 			<label for="inkomstkalla">Inkomstk&auml;lla</label>
 			<?php if (isset($error['inkomstkalla'])) { ?><p class="error"><?php echo $error['inkomstkalla']; ?></p><?php } ?>
 			<select name="inkomstkalla" id="inkomstkalla" class="u-full-width">
-				<option value="01">L&ouml;n</option>
+				<option value="01">F&ouml;retag</option>
 			</select>
 			
 			<label for="year">&Aring;r</label>
